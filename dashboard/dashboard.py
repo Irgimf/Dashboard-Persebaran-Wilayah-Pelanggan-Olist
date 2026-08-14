@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -9,11 +10,13 @@ from streamlit_folium import st_folium
 sns.set(style="whitegrid")
 
 st.set_page_config(page_title="Dashboard Persebaran Wilayah Pelanggan Olist", layout="wide")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "main_data.csv")
 
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv(DATA_PATH)
     return df
 
 
