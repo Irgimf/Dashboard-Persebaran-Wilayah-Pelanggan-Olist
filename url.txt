@@ -1,1 +1,1 @@
-https://[isi-dengan-url-dashboard-anda].streamlit.app
+https://dashboard-persebaran-wilayah-pelanggan-olist-hjzyvp77vgvurdhtf.streamlit.app/
