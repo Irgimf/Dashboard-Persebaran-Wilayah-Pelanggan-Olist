@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+folium
+streamlit
+streamlit-folium
+jupyter
+nbformat
